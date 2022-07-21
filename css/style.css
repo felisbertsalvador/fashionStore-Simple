@@ -1,6 +1,40 @@
+
+.main-section {
+   margin: 0 auto; 
+   width: 940px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.head-text {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 img {
     width: 373px;
     height: 470px;
+    margin: 10px;
+}
+
+footer {
+   position: fixed;
+   background-color: #333;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   padding: 10px 10px 0 10px;
 }
 
 footer p {
